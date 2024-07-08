@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 375px) and (max-width:768px ){
+    body{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Rubik", sans-serif; ;
+    }
+
+    #background{
+        background-image: url(/images/pattern-bg-mobile.png);
+        height: 300px;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        
+    }
+
+    header {
+        min-height: 50px;
+        width: 80vw;
+        position: absolute;
+    }
+
+    header h1 {
+        text-align: center;
+        padding: 25px 0px 25px 0px;
+        color: white;
+    }
+
+    header div{
+        
+        background-color: black;
+        height: 40px;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    header div input{
+        text-align: center;
+        width: 90%;
+        height: 40px;
+        border-radius: 10px 0px 0px 10px;
+        outline: none;
+        border: none;
+    }
+
+    header div svg{
+       position: absolute;
+       top: 99px;
+       padding-left: 3%;
+    }
+
+    section{
+        margin-top: 25px;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        width: 80vw;
+        text-align: center;
+        padding: 25px 0px 0px 0px;
+        position: absolute;
+        top: 125px;
+    }
+
+    section p {
+        color: hsl(0, 0%, 59%);
+        padding-bottom: 10px;
+        font-size: 10px;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    section h1 {
+        color: hsl(0, 0%, 17%);
+        padding-bottom: 25px;
+        font-size: 20px;
+    }
+
+}
